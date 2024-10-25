@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/redis:7.0.12 docker://crpi-lfn71dyu72rpt33w.cn-beijing.personal.cr.aliyuncs.com/zhangyiwen91/redis:7.0.12
+         skopeo copy docker://docker.io/arm64v8/postgres:12-bullseye docker://crpi-lfn71dyu72rpt33w.cn-beijing.personal.cr.aliyuncs.com/zhangyiwen91/arm64v8/postgres:12-bullseye
          
          
          
